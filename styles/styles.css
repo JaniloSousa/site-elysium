@@ -34,11 +34,8 @@ body header div.header {
     padding: 40px 0px 40px 0px;
 }
 
-body header div.header div.logo h1 {
-    color: white;
-    font-family: var(--fonte-titulo);
-    font-weight: normal;
-    font-size: 40px;
+body header div.header div.logo img {
+    width: 250px;
 }
 
 body header div.header nav {
