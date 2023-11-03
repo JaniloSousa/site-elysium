@@ -58,13 +58,14 @@ body header div.header nav a:hover {
 
 /* --------------------------------- hero ----------------------------------*/
 body div#hero { /* apenas o background */
-    height: 100vh;
+    height: fit-content;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../imagens/fundo-hero.jpg);
 
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 body div#hero div.hero { /* aonde eu configuro o flex */

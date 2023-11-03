@@ -38,7 +38,7 @@
     /* -------------------- hero ------------------------- */
     body div#hero {
         padding-top: 100px;
-        height: 120vh;
+        padding-bottom: 100px;
     }
 
     body div#hero div.hero {
@@ -94,12 +94,11 @@
 
     div.valores-card1 div.valores-card1-txt p
     div.valores-card2 div.valores-card2-txt p,
-    div.valores-card3 div.valores-card3-txt p, {
+    div.valores-card3 div.valores-card3-txt p {
         text-align: justify;
     }
-    
-
 }
+
 
 /* cell */
 @media screen and (min-width: 600px) and (max-width: 768px) {  
@@ -117,7 +116,7 @@
     /* -------------------------- header ---------------------- */
     body div#hero {
         padding-top: 100px;
-        height: 120vh;
+        padding-bottom: 100px;
     }
 
     body div#hero div.hero {
@@ -173,7 +172,7 @@
 
     div.valores-card1 div.valores-card1-txt p
     div.valores-card2 div.valores-card2-txt p,
-    div.valores-card3 div.valores-card3-txt p, {
+    div.valores-card3 div.valores-card3-txt p {
         text-align: justify;
     }
 
@@ -195,7 +194,7 @@
     /* --------------------------- hero ----------------------------- */
     body div#hero {
         padding-top: 100px;
-        height: 120vh;
+        padding-bottom: 100px;
     }
 
     body div#hero div.hero {
@@ -251,7 +250,7 @@
 
     div.valores-card1 div.valores-card1-txt p
     div.valores-card2 div.valores-card2-txt p,
-    div.valores-card3 div.valores-card3-txt p, {
+    div.valores-card3 div.valores-card3-txt p {
         text-align: justify;
     }
 
@@ -273,6 +272,7 @@
     /* ------------------------------ hero ------------------------------------*/
     body div#hero {
         padding-top: 100px;
+        padding-bottom: 100px;
     }
 
 }
