@@ -149,10 +149,25 @@ div.valores-card1, div.valores-card2, div.valores-card3 {
 div.valores-card1 div.valores-card1-img,
 div.valores-card3 div.valores-card3-img {
     margin-right: 20px;
+    overflow: hidden;
 }
 
 div.valores-card2 div.valores-card2-img {
     margin-left: 20px;
+    overflow: hidden;
+}
+
+div.valores-card1 div.valores-card1-img img,
+div.valores-card2 div.valores-card2-img img,
+div.valores-card3 div.valores-card3-img img {
+    transition: 0.3s;
+}
+
+div.valores-card1 div.valores-card1-img img:hover,
+div.valores-card2 div.valores-card2-img img:hover,
+div.valores-card3 div.valores-card3-img img:hover {
+    scale: 1.2;
+    rotate: 5deg;
 }
 
 div.valores-card1 div.valores-card1-txt,
