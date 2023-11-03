@@ -1,0 +1,284 @@
+/* telas pequenas */
+@media screen and (max-width: 600px) {
+    div.gallowdiv {
+        max-width: 1250px;
+        margin: auto;
+        padding: 0px 30px;
+    }
+
+    /* -------------------- header ------------------------- */
+    body header div.header {
+        padding: 40px 0px 40px 0px;
+        flex-direction: column;
+    }
+
+    body header div.header div.logo h1 {
+        font-size: 55px;
+    }
+
+    body header div.header nav {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    body header div.header nav a {
+        display: inline;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    body header div.header nav a:hover {
+        color: rgb(158, 158, 158);
+        background-color: blue;
+    }
+
+    /* -------------------- hero ------------------------- */
+    body div#hero {
+        padding-top: 100px;
+        height: 120vh;
+    }
+
+    body div#hero div.hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body div#hero div.hero div.hero-text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* ------------------------------- valores cards --------------------------- */
+    section#valores {
+        padding-top: 20px;
+    }
+
+    div.valores-card1,
+    div.valores-card2,
+    div.valores-card3 {
+        flex-wrap: wrap;
+    }
+
+    div.valores-card1 div.valores-card1-img,
+    div.valores-card2 div.valores-card2-img,
+    div.valores-card3 div.valores-card3-img {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    div.valores-card1 div.valores-card1-img img,
+    div.valores-card2 div.valores-card2-img img,
+    div.valores-card3 div.valores-card3-img img {
+        width: 100%;
+    }
+
+    div.valores-card2 div.valores-card2-txt {
+        margin-bottom: 30px;
+    }
+
+    div.valores-card2 div.valores-card2-img {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    div.valores-card1 div.valores-card1-txt,
+    div.valores-card2 div.valores-card2-txt,
+    div.valores-card3 div.valores-card3-txt {
+        max-width: none;
+        width: 100%;
+    }
+
+    div.valores-card1 div.valores-card1-txt p
+    div.valores-card2 div.valores-card2-txt p,
+    div.valores-card3 div.valores-card3-txt p, {
+        text-align: justify;
+    }
+    
+
+}
+
+/* cell */
+@media screen and (min-width: 600px) and (max-width: 768px) {  
+    div.gallowdiv {
+        max-width: 1250px;
+        margin: auto;
+        padding: 0px 30px;
+    }
+
+    /* -------------------------- header ---------------------- */
+    body header div.header {
+        padding: 40px 30px 40px 30px;
+    }
+
+    /* -------------------------- header ---------------------- */
+    body div#hero {
+        padding-top: 100px;
+        height: 120vh;
+    }
+
+    body div#hero div.hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body div#hero div.hero div.hero-text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* ------------------------------- valores cards --------------------------- */
+    section#valores {
+        padding-top: 20px;
+    }
+
+    div.valores-card1,
+    div.valores-card2,
+    div.valores-card3 {
+        flex-wrap: wrap;
+    }
+
+    div.valores-card1 div.valores-card1-img,
+    div.valores-card2 div.valores-card2-img,
+    div.valores-card3 div.valores-card3-img {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    div.valores-card1 div.valores-card1-img img,
+    div.valores-card2 div.valores-card2-img img,
+    div.valores-card3 div.valores-card3-img img {
+        width: 100%;
+    }
+
+    div.valores-card2 div.valores-card2-txt {
+        margin-bottom: 30px;
+    }
+
+    div.valores-card2 div.valores-card2-img {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    div.valores-card1 div.valores-card1-txt,
+    div.valores-card2 div.valores-card2-txt,
+    div.valores-card3 div.valores-card3-txt {
+        max-width: none;
+        width: 100%;
+    }
+
+    div.valores-card1 div.valores-card1-txt p
+    div.valores-card2 div.valores-card2-txt p,
+    div.valores-card3 div.valores-card3-txt p, {
+        text-align: justify;
+    }
+
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div.gallowdiv {
+        max-width: 1250px;
+        margin: auto;
+        padding: 0px 30px;
+    }
+
+    /* --------------------------- header ----------------------------- */
+    body header div.header {
+        padding: 40px 30px 40px 30px;
+    }
+
+    /* --------------------------- hero ----------------------------- */
+    body div#hero {
+        padding-top: 100px;
+        height: 120vh;
+    }
+
+    body div#hero div.hero {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body div#hero div.hero div.hero-text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* ------------------------------- valores cards --------------------------- */
+    section#valores {
+        padding-top: 50px;
+    }
+
+    div.valores-card1,
+    div.valores-card2,
+    div.valores-card3 {
+        flex-wrap: wrap;
+    }
+
+    div.valores-card1 div.valores-card1-img,
+    div.valores-card2 div.valores-card2-img,
+    div.valores-card3 div.valores-card3-img {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    div.valores-card1 div.valores-card1-img img,
+    div.valores-card2 div.valores-card2-img img,
+    div.valores-card3 div.valores-card3-img img {
+        width: 100%;
+    }
+
+    div.valores-card2 div.valores-card2-txt {
+        margin-bottom: 30px;
+    }
+
+    div.valores-card2 div.valores-card2-img {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    div.valores-card1 div.valores-card1-txt,
+    div.valores-card2 div.valores-card2-txt,
+    div.valores-card3 div.valores-card3-txt {
+        max-width: none;
+        width: 100%;
+    }
+
+    div.valores-card1 div.valores-card1-txt p
+    div.valores-card2 div.valores-card2-txt p,
+    div.valores-card3 div.valores-card3-txt p, {
+        text-align: justify;
+    }
+
+}
+
+/* pc */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    div.gallowdiv {
+        max-width: 1250px;
+        margin: auto;
+        padding: 0px 30px;
+    }
+
+    /* ------------------------------ header ------------------------------------*/
+    body header div.header {
+        padding: 40px 30px 40px 30px;
+    }
+
+    /* ------------------------------ hero ------------------------------------*/
+    body div#hero {
+        padding-top: 100px;
+    }
+
+}
+
+/* tv */
+@media screen and (min-width: 1200px) {
+    /* ------------------------- header ------------------------------*/
+
+}

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+    --fonte-paragrafo: 'Roboto', sans-serif;
+
+    --azul3: #006494;
+    --azul4: #003554;
+}
+
+div.gallowdiv {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* --------------------------------- header ----------------------------------*/
+header {
+    background-color: var(--azul3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+body header div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 40px 0px 40px 0px;
+}
+
+body header div.header div.logo h1 {
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 40px;
+}
+
+body header div.header nav {
+    display: flex;
+    gap: 40px;
+}
+
+body header div.header nav a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-paragrafo);
+}
+
+body header div.header nav a:hover {
+    color: rgb(158, 158, 158);
+}
+
+/* --------------------------------- hero ----------------------------------*/
+body div#hero { /* apenas o background */
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagens/fundo-hero.jpg);
+
+    padding-top: 200px;
+}
+
+body div#hero div.hero { /* aonde eu configuro o flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---------------------------- hero texto ------------------------------ */
+body div#hero div.hero div.hero-text {
+    max-width: 625px;
+}
+
+body div#hero div.hero div.hero-text h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body div#hero div.hero div.hero-text p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}
+
+body div#hero div.hero div.hero-text a {
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+    background-color: var(--azul3);
+    text-decoration: none;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+body div#hero div.hero div.hero-text a i {
+    margin-right: 10px;
+}
+
+/* ---------------------------- hero imagem ------------------------------ */
+
+body div#hero div.hero div.hero-img {
+    width: 625px;
+    max-width: 625px;
+}
+
+body div#hero div.hero div.hero-img img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* --------------------------------- cards dos valores ---------------------------------- */
+section#valores {
+    padding-top: 100px;
+}
+
+div.valores-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+div.valores-card1, div.valores-card2, div.valores-card3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 70px 0px;
+}
+
+
+div.valores-card1 div.valores-card1-img,
+div.valores-card3 div.valores-card3-img {
+    margin-right: 20px;
+}
+
+div.valores-card2 div.valores-card2-img {
+    margin-left: 20px;
+}
+
+div.valores-card1 div.valores-card1-txt,
+div.valores-card2 div.valores-card2-txt,
+div.valores-card3 div.valores-card3-txt {
+    max-width: 700px;
+
+}
+
+div.valores-card1 div.valores-card1-txt h2,
+div.valores-card2 div.valores-card2-txt h2,
+div.valores-card3 div.valores-card3-txt h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 50px;
+    font-weight: normal;
+    color: var(--azul4);
+}
+
+div.valores-card1 div.valores-card1-txt p,
+div.valores-card2 div.valores-card2-txt p,
+div.valores-card3 div.valores-card3-txt p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+    line-height: 2rem;
+}
