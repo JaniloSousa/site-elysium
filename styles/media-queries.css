@@ -1,5 +1,6 @@
 /* telas pequenas */
 @media screen and (max-width: 600px) {
+    /* ----------------------------- tags genéricas ------------------------------ */
     div.gallowdiv {
         max-width: 1250px;
         margin: auto;
@@ -14,6 +15,7 @@
 
     body header div.header div.logo {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     body header div.header div.logo img {
@@ -34,11 +36,6 @@
         display: inline;
         width: 100%;
         padding: 10px 0px;
-    }
-
-    body header div.header nav a:hover {
-        color: rgb(158, 158, 158);
-        background-color: blue;
     }
 
     /* -------------------- hero ------------------------- */
@@ -107,7 +104,8 @@
 
 
 /* cell */
-@media screen and (min-width: 600px) and (max-width: 768px) {  
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    /* ----------------------------- tags genéricas ------------------------------ */
     div.gallowdiv {
         max-width: 1250px;
         margin: auto;
@@ -121,6 +119,7 @@
 
     body header div.header div.logo {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     body header div.header div.logo img {
@@ -201,6 +200,7 @@
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* ----------------------------- tags genéricas ------------------------------ */
     div.gallowdiv {
         max-width: 1250px;
         margin: auto;
@@ -279,6 +279,7 @@
 
 /* pc */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* ----------------------------- tags genéricas ------------------------------ */
     div.gallowdiv {
         max-width: 1250px;
         margin: auto;
@@ -288,6 +289,22 @@
     /* ------------------------------ header ------------------------------------*/
     body header div.header {
         padding: 40px 30px 40px 30px;
+    }
+
+    body header div.header nav a::after {
+        content: '';
+        position: absolute;
+        bottom: -1rem;
+        left: 50%; /* da onde ela começa a crescer (da metade) */
+        width: 0;
+        height: 0.2rem;
+        background-color: var(--azul1);
+        transition: all 300ms ease-in-out;
+    }
+    
+    body header div.header nav a:hover::after {
+        width: 100%; /* o quanto ela vai crescer (no caso toda) */
+        left: 0%; /* da onde ela vai vim depois de crescida */
     }
 
     /* ------------------------------ hero ------------------------------------*/
@@ -301,5 +318,20 @@
 /* tv */
 @media screen and (min-width: 1200px) {
     /* ------------------------- header ------------------------------*/
+    body header div.header nav a::after {
+        content: '';
+        position: absolute;
+        bottom: -1rem;
+        left: 50%; /* da onde ela começa a crescer (da metade) */
+        width: 0;
+        height: 0.2rem;
+        background-color: var(--azul1);
+        transition: all 300ms ease-in-out;
+    }
+    
+    body header div.header nav a:hover::after {
+        width: 100%; /* o quanto ela vai crescer (no caso toda) */
+        left: 0%; /* da onde ela vai vim depois de crescida */
+    }
 
 }
