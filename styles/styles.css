@@ -193,4 +193,5 @@ div.valores-card3 div.valores-card3-txt p {
     font-family: var(--fonte-paragrafo);
     font-size: 20px;
     line-height: 2rem;
+    text-align: justify;
 }
