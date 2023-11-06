@@ -3,114 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo Elysium</title>
-    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>Projeto Landing Page</title>
 
-    <!--  -->
-    <!-- minhas fontes: bebas neue e roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <!-- meus ícones do font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- meus estilos css e media queries -->
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/media-queries.css">
-    
-    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media_queries.css">
 </head>
 <body>
-    <!-- cabecalho -->
     <header>
-        <div class="header gallowdiv"> <!-- div que delimita o conteúdo no meio -->
-            <div class="logo">
-                <img src="images/logo1.png" alt="">
+        <div class="gallowdiv">
+            <div class="header">
+                <div class="logo">
+                    <h1>
+                        <a href="#">
+                            <img src="logo1.png" alt="">
+                        </a>
+                    </h1>
+                </div>
+                <nav>
+                    <a href="#hero">Quem Somos</a>
+                    <a href="#cards">Nossos Serviços</a>
+                    <a href="#text-cards">Endereço</a>
+                    <a href="#text-cards">Contato</a>
+                </nav>
             </div>
-            <nav>
-                <a href="">Quem Somos</a>
-                <a href="">Serviços</a>
-                <a href="">Endereço</a>
-                <a href="">Contatos</a>
-            </nav>
         </div>
     </header>
 
-    <!-- sessão do hero e chamada para a acão -->
-    <div id="hero">
+    <section id="hero">
         <div class="gallowdiv">
-            <div class="hero"> <!-- hero texto -->
+            <div class="hero">
                 <div class="hero-text">
                     <h1>Conheça mais sobre o grupo elysium ... </h1>
-                    <p>Somos uma empresa que atua no mercado de condomínios e
-                        empresas privadas, oferecendo serviços de atendimento
-                        personalizado, buscando melhorias para os nossos clientes, através de
-                        qualidade, e ciência e REDUÇÃO DE CUSTOS.</p>
-                    <a href=""><i class="fa-solid fa-handshake"></i>CONTRATAR</a>
+                    <p>Somos uma empresa que atua no mercado de condomínios e empresas privadas, oferecendo serviços de atendimento personalizado, buscando melhorias para os nossos clientes, através de qualidade, e ciência e REDUÇÃO DE CUSTOS.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-handshake"></i>
+                        CONTRATAR
+                    </a>
                 </div>
-                
-                <div class="hero-img"> <!-- hero imagem -->
-                    <img src="images/logo2.png" alt="">
+                <div class="hero-image">
+                    <img src="logo2.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- sessão dos cards dos valores da empresa -->
-    <section id="valores">
+    <section id="horizontal-cards">
         <div class="gallowdiv">
-            <div class="valores-cards">
-                <div class="valores-card1">
-                    <div class="valores-card1-img">
-                        <img src="images/valores-img1.jpg" alt="">
+            <div class="horizontal-cards">
+                <div class="horizontal-card">
+                    <div class="horizontal-card-image">
+                        <img src="valores-img1.jpg" alt="">
                     </div>
-                    <div class="valores-card1-txt">
+                    <div class="horizontal-card-text">
                         <h2>
                             Missão
                             <i>
-                                <img src="icons/missao-icone.png" alt="">
+                                <img src="valores-icon1.png" alt="">
                             </i>
                         </h2>
-                        <p>Proporcionar aos nossos clientes e parceiros, os nossos serviços com
-                            segurança, transparência e agilidade, focada em soluções
-                            personalizadas e organizadas para cada cliente específico.</p>
+                        <p>Proporcionar aos nossos clientes e parceiros, os nossos serviços com segurança, transparência e agilidade, focada em soluções personalizadas e organizadas para cada cliente especi co.</p>
                     </div>
-                </div> 
+                </div>
 
-                <div class="valores-card2">
-                    <div class="valores-card2-txt">
+                <div class="horizontal-card">
+                    <div class="horizontal-card-text">
                         <h2>
                             Visão
                             <i>
-                                <img src="icons/visao-icone.png" alt="">
+                                <img src="valores-icon2.png" alt="">
                             </i>
                         </h2>
-                        <p>Ser uma empresa que preza pela excelência, conceituada,
-                            diferenciada, buscando sempre o reconhecimento da sociedade ao
-                            fornecer os seus serviços inovadores com e eficácia.</p>
+                        <p>Ser uma empresa que preza pela excelência, conceituada, diferenciada, buscando sempre o reconhecimento da sociedade ao fornecer os seus serviços inovadores com e cácia.</p>
                     </div>
-                    <div class="valores-card2-img">
-                        <img src="images/valores-img2.jpg" alt="">
+                    <div class="horizontal-card-image">
+                        <img src="valores-img2.jpg" alt="">
                     </div>
                 </div>
 
-                <div class="valores-card3">
-                    <div class="valores-card3-img">
-                        <img src="images/valores-img3.jpg" alt="">
+                <div class="horizontal-card">
+                    <div class="horizontal-card-image">
+                        <img src="valores-img3.jpg" alt="">
                     </div>
-                    <div class="valores-card3-txt">
+                    <div class="horizontal-card-text">
                         <h2>
                             Valores
                             <i>
-                                <img src="icons/valores-icone.png" alt="">
+                                <img src="valores-icon3.png" alt="">
                             </i>
                         </h2>
-                        <p>Ética, transparência e compromisso. Maximizar a qualidade dos
-                            serviços prestados. Contribuir para uma sociedade melhor.</p>
+                        <p>Ética, transparência e compromisso. Maximizar a qualidade dos serviços prestados. Contribuir para uma sociedade melhor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="text-cards">
+        <div class="gallowdiv">
+            <div class="text-cards-intro">
+                <h2>Motivos para escolher a elysium</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione ipsa perferendis ad eius repudiandae ex cumque hic. Delectus fugit eligendi animi laudantium. Consequatur unde officiis aperiam velit dolor nemo!</p>
+            </div>
+            <div class="text-cards">
+                <div class="text-card">
+                    <i>
+                        <img src="icon-motivos.png" alt="">
+                    </i>
+                    <h2>Motivo 1</h2>
+                    <p>Somos especialistas em prestação de serviços de atendimento.</p>
+                </div>
+
+                <div class="text-card">
+                    <i>
+                        <img src="icon-motivos.png" alt="">
+                    </i>
+                    <h2>Motivo 2</h2>
+                    <p>Somos especialistas em administração financeira e contábil e terceirização de mão de obra em diversas áreas.</p>
+                </div>
+
+                <div class="text-card">
+                    <i>
+                        <img src="icon-motivos.png" alt="">
+                    </i>
+                    <h2>Motivo 3</h2>
+                    <p>Contamos com profissionais qualificados, proporcionando agilidade no atendimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="gallowdiv">
+            <div class="cards-intro">
+                <h2>Conheça os Nossos Serviços</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, voluptatum! Odio, impedit! Aut inventore amet rem dolor accusamus suscipit, perferendis repellat earum officia similique ipsa cupiditate tempora, deleniti ex id!</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="servico-img1.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Administração</h3>
+                        <p>Gestão Administrativa completa para condomínios e empresas, buscando soluções e cientes e atendimento exclusivo. Controle das contas, emissão de boletos, pagamento e recebimento de receitas, elaboração de balancetes, cobrança administrativa.</p>
                     </div>
                 </div>
 
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h3>Titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi quam quia veniam earum magnam, asperiores iure laudantium quis explicabo est eveniet cupiditate maiores hic distinctio, quaerat, aliquid aut? Debitis?</p>
+                        <a href="#">BOTÃO</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

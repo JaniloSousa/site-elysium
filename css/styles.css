@@ -1,0 +1,362 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --azul1: #00A6FB;
+    --azul2: #0582CA;
+    --azul3: #006494;
+    --azul4: #003554;
+    --azul5: #051923;
+
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+    --fonte-paragrafo: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-paragrafo);
+}
+
+div.gallowdiv {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 15px 0px 15px;
+}
+
+/* ------------------ header -------------------- */
+
+header {
+    background-color: var(--azul3);
+    padding: 40px 0px 20px 0px;
+}
+
+header div.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header div.header div.logo {
+    width: 300px;
+}
+
+header div.header div.logo h1 {
+    font-size: 40px;
+}
+
+header div.header div.logo h1 img {
+    width: 100%;
+    filter: brightness(1.2);
+}
+
+header div.header div.logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header div.header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+header div.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    font-family: var(--fonte-paragrafo);
+    position: relative;
+}
+
+header div.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    font-family: var(--fonte-paragrafo);
+}
+
+/* ---------------------- hero ---------------------------------- */
+section#hero {
+    padding: 50px 0px 50px 0px;
+    background-image: url("../background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section#hero div.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#hero div.hero div.hero-text {
+    
+}
+
+section#hero div.hero div.hero-text h1 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#hero div.hero div.hero-text p {
+    color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: var(--fonte-paragrafo);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#hero div.hero div.hero-text a {
+    background-color: var(--azul3);
+    color: white;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    transition: all 200ms ease-in-out;
+}
+
+section#hero div.hero div.hero-text a i {
+    margin-right: 10px;
+}
+
+section#hero div.hero div.hero-text a:hover {
+    scale: 1.2;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25);
+    background-color: var(--azul2);
+}
+
+section#hero div.hero div.hero-image { /* PRESTE ATENÇÃO AQUI */
+    max-width: 500px;
+    margin: auto;
+}
+
+section#hero div.hero div.hero-image img {
+    width: 100%;
+}
+
+/* ----------------------------- horizontal cards ---------------------------------------- */
+section#horizontal-cards {
+    padding: 50px 0px 50px 0px;
+}
+
+section#horizontal-cards div.horizontal-cards {
+    
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px 50px 0px;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card:nth-child(2) {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image { /* PRESTE ATENÇÃO AQUI */
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image img {
+    width: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image img:hover {
+    scale: 1.3;
+    rotate: 5deg;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card div.horizontal-card-text {
+    
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--azul4);
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 i {
+    width: 50px;
+    display: inline-block;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 i img {
+    width: 100%;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* ----------------------------------- text cards ------------------------------------------ */
+section#text-cards {
+    background-color: var(--azul3);
+    padding: 50px 0px 50px 0px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+section#text-cards div.text-cards-intro {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#text-cards div.text-cards-intro h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+}
+
+section#text-cards div.text-cards-intro p {
+    line-height: 25px;
+}
+
+section#text-cards div.text-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#text-cards div.text-cards div.text-card {
+    text-align: center;
+    color: white;
+}
+
+section#text-cards div.text-cards div.text-card i {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+section#text-cards div.text-cards div.text-card i img {
+    width: 100%;
+}
+
+section#text-cards div.text-cards div.text-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+}
+
+section#text-cards div.text-cards div.text-card p {
+    line-height: 25px;  
+}
+
+/* ---------------------------- cards servicos ----------------------------------- */
+section#cards {
+    padding: 50px 0px 50px 0px;
+}
+
+section#cards div.cards-intro {
+    text-align: center;
+}
+
+section#cards div.cards-intro h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+}
+
+section#cards div.cards-intro p {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+section#cards div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+section#cards div.cards div.card {
+    border-radius: 20px;
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    transition: all 200ms ease-in-out;
+}
+
+section#cards div.cards div.card:hover {
+    scale: 1.1;
+    box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+section#cards div.cards div.card div.card-image {
+
+}
+
+section#cards div.cards div.card div.card-image img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+section#cards div.cards div.card div.card-text {
+    padding: 10px;
+}
+
+section#cards div.cards div.card div.card-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+}
+
+section#cards div.cards div.card div.card-text p {
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+section#cards div.cards div.card div.card-text a {
+    background-color: #436F70;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}

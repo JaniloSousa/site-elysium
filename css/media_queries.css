@@ -1,0 +1,96 @@
+@media screen and (min-width: 850px) {
+    /* ------------------ header -----------------------*/
+    header {
+        padding-bottom: 40px;
+    }
+
+    header div.header {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    
+    header div.header nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    /* ANIMAÇÃO DOS LINKS DO MENU
+    header div.header nav a::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        height: 4px;
+        width: 0%;
+        background-color: var(--azul2);
+        transition: all 300ms ease-in-out;
+    }
+    
+    header div.header nav a:hover::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0%;
+        height: 4px;
+        width: 100%;
+        background-color: var(--azul2);
+    }
+    */
+
+    /* ------------------ hero -----------------------*/
+
+    section#hero {
+        padding: 300px 0px 300px 0px;
+    }
+    
+    section#hero div.hero {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    section#hero div.hero div.hero-text {
+        width: 600px;
+    }
+    
+    section#hero div.hero div.hero-text a {
+        margin: 0px;
+    }
+
+    /* --------------------- horizontal cards ---------------------------------*/
+    section#horizontal-cards {
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#horizontal-cards div.horizontal-cards div.horizontal-card {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text {
+        width: 800px;
+    }
+
+    /* ---------------------- text-cards -------------------------- */
+    section#text-cards {
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#text-cards div.text-cards-intro {
+        margin-bottom: 100px;
+    }
+    
+    section#text-cards div.text-cards {
+        flex-direction: row;
+    }
+
+    /* --------------------- cards ---------------------------- */
+    section#cards {
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#cards div.cards div.card {
+        max-width: 380px;
+    }
+}
