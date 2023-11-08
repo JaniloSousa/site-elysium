@@ -93,4 +93,28 @@
     section#cards div.cards div.card {
         max-width: 380px;
     }
+
+    /* ---------------------- sessão do email ---------------------------- */
+    section#email {
+        padding: 100px 0px 100px 0px;
+    }
+
+    section#email div.email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    section#email div.email form {
+        width: 50%;
+    }
+
+    section#email div.email div.email-img {
+        width: 50%;
+    }
+
+    div.nome-sobrenome {
+        display: flex;
+        gap: 10px;
+    }
 }

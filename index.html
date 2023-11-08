@@ -28,8 +28,8 @@
                 <nav>
                     <a href="#hero">Quem Somos</a>
                     <a href="#cards">Nossos Serviços</a>
+                    <a href="#email">Email</a>
                     <a href="#text-cards">Endereço</a>
-                    <a href="#text-cards">Contato</a>
                 </nav>
             </div>
         </div>
@@ -237,5 +237,36 @@
             </div>
         </div>
     </section>
+
+    <!-- sessão do e-mail -->
+
+    <section id="email">
+        <div class="gallowdiv">
+            <div class="email">
+                <form action="https://formsubmit.co/janilopaixao2@gmail.com" method="POST">
+                    <h2>Ainda tem alguma dúvida? Envie nos um e-mail:</h2>
+                    <div class="nome-sobrenome">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome aqui ... " required>
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome aqui ... " required>
+                    </div>
+
+                    <input type="email" id="email" name="email" placeholder="Utilize o seu melhor email" required>
+
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                    <input type="hidden" name="_captcha" value="false" />
+
+                    <button type="submit">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>ENVIAR</span>
+                    </button>
+                </form>
+                <div class="email-img">
+                    <img src="email-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
