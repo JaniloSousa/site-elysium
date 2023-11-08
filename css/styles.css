@@ -14,6 +14,11 @@ html {
     --azul4: #003554;
     --azul5: #051923;
 
+    --azul6: #0064a0;
+    --azul7: #0064aa;
+    --azul8: #0064b4;
+    --azul9: #0064c8;
+
     --fonte-titulo: 'Bebas Neue', sans-serif;
     --fonte-paragrafo: 'Roboto', sans-serif;
 }
@@ -31,7 +36,7 @@ div.gallowdiv {
 /* ------------------ header -------------------- */
 
 header {
-    background-color: var(--azul3);
+    background-image: linear-gradient(to bottom, var(--azul9), var(--azul8), var(--azul7), var(--azul6), var(--azul3), var(--azul6), var(--azul7), var(--azul8), var(--azul9));
     padding: 40px 0px 20px 0px;
 }
 
@@ -89,7 +94,6 @@ section#hero {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 section#hero div.hero {
