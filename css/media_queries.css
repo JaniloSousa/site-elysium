@@ -117,4 +117,9 @@
         display: flex;
         gap: 10px;
     }
+
+    /* ----------------------------- address ------------------------------------ */
+section#address {
+    padding: 100px 0px 100px 0px;
+}
 }

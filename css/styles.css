@@ -90,7 +90,7 @@ header div.header nav a {
 /* ---------------------- hero ---------------------------------- */
 section#hero {
     padding: 50px 0px 50px 0px;
-    background-image: url("../background.jpg");
+    background-image: url("../images/background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +176,8 @@ section#horizontal-cards div.horizontal-cards div.horizontal-card {
     flex-direction: column;
     gap: 20px;
     padding: 50px 0px 50px 0px;
+
+    visibility: hidden;
 }
 
 section#horizontal-cards div.horizontal-cards div.horizontal-card:nth-child(2) {
@@ -449,5 +451,34 @@ section#email div.email div.email-img {
 }
 
 section#email div.email div.email-img img {
+    width: 100%;
+}
+
+/* ----------------------------- address ------------------------------------ */
+section#address {
+    padding: 50px 0px 50px 0px;
+}
+
+section#address div.address {
+    text-align: center;
+}
+
+section#address div.address h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    color: black;
+    font-weight: normal;
+}
+
+section#address div.address address {
+    margin-bottom: 40px;
+}
+
+section#address div.address div.address-img-map {
+    margin: auto;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+section#address div.address img {
     width: 100%;
 }
