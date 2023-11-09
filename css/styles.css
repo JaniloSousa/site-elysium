@@ -33,6 +33,10 @@ div.gallowdiv {
     padding: 0px 15px 0px 15px;
 }
 
+.reveal {
+    visibility: hidden;
+}
+
 /* ------------------ header -------------------- */
 
 header {
@@ -94,6 +98,7 @@ section#hero {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#hero div.hero {
@@ -176,8 +181,6 @@ section#horizontal-cards div.horizontal-cards div.horizontal-card {
     flex-direction: column;
     gap: 20px;
     padding: 50px 0px 50px 0px;
-
-    visibility: hidden;
 }
 
 section#horizontal-cards div.horizontal-cards div.horizontal-card:nth-child(2) {
@@ -481,4 +484,54 @@ section#address div.address div.address-img-map {
 
 section#address div.address img {
     width: 100%;
+}
+
+/* ---------------------------------- footer --------------------------------- */
+footer {
+    background-color: var(--azul3);
+    padding: 50px 0px 25px 0px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+footer div.footer {
+
+}
+
+footer div.footer div.content-footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer div.footer div.content-footer img#logo {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+footer div.footer div.content-footer p {
+    width: 300px;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer div.footer div.content-footer div.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer div.footer div.content-footer div.footer-icons img {
+    filter: grayscale(1);
+}
+
+footer div.footer div.copyright {
+    border-top: 2px solid rgba(0, 0, 0, 0.10);
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer div.footer div.copyright span {
+    font-style: italic;
+    font-size: 14px;
 }
